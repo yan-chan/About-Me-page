@@ -1,0 +1,107 @@
+<html>
+<head>
+    
+      <style>
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style><style>
+        body {
+            background-color:lightcyan
+        }
+    </style>
+    <title>
+    Hobbies
+    </title>
+    </head>
+<body>
+    <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a style =font-family:cursive href="test.html">About Me</a>
+  <a style = font-family:cursive href="school.html">School</a>
+  <a style = font-family:cursive href="future.html">Future</a>
+  <a style = font-family:cursive href="Others.html">Others</a>
+        <a style = font-family:cursive href= "Untitled-4.html">Hobbies</a>
+        <a style = font-family:cursive href= "bio.html">Bio</a>
+</div>
+
+<h2></h2>
+<p></p>
+<span style="font-size:30px;cursor:pointer;color:white;" onclick="openNav()">&#9776;</span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+    <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">About</a>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()"></span>
+
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+<div id="main">
+  ...
+</div> 
+    <p style = font-family:cursive;font-size:36;color:lightblue> My Hobbies</p>
+    <p style = font-family:fantasy;font-size:20;color:purple>I have many hobbies that I nomally do. At home, I would usually go in a group chat or call my friends and start gaming together until midnight. If my friends aren't avaliable I would just go on other apps and kill time. I also have a hobby of bring my hamster everywhere I go, even to school! Last year at school, 3 of my classes has dogs. Since half of the classes I have had dogs,it was pretty hard to keep track of my hamster so I can only bring it to school when it had "Block schedule" or early release. I also watch alot of anime at home too." </p>
+    <img src= "https://lh5.googleusercontent.com/73Xg-oifnlFfQ2cQdIbkPvXJl6dBvlL7upwcXdfRimi0iUSIhTPqwSXxrPvK-WuLOQxcndkFXa6ZlqU=w1440-h826-rw" width = "200">
+    <img src = "https://lh6.googleusercontent.com/txt6XS8mFCrPvfUpG58seJLbg6z03T8kZlN7w4Ig_uO0XgeOD13UEOJG2v3qdXmDvsbykm35UaoIfkg=w696-h621-rw" width = 200>
+    <p style = color:blue;font-size:20;font-family:fantasy>~~~ A Picture of my hamster as a grown up and as a baby~~~</p>
+    <img src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJkAAACZCAMAAAALgmiIAAAAaVBMVEUAAAD////5+fnt7e3q6upFRUVLS0v09PQiIiJiYmIdHR3m5ub8/PxlZWUpKSnNzc17e3sSEhJQUFC3t7ehoaGoqKjf398xMTGLi4s+Pj7V1dUZGRm/v7+UlJQLCwuamppzc3ODg4NZWVmmwxeeAAAExklEQVR4nO2a17arOAxAbSD0GkKv4f8/ciyZmnLvmhkCPGg/JAZzYB+5yE7CGEEQBEEQBEEQBEEQBEEQBEEQBEEQBEFcjKhJkqSfjnxxkNyZBW9J5T+SpPPbpl8uv4nzjX2MWsoF08EDDu5MhTdueniUae4wX/0UZ1T9GLMBHt/Isg9KJeu5NLMUzhU9czgvpqtDl3PtdowZ04REGmGxAaGelRszX5hpk9qhZiFYPKFkCgceTCFbm3EjO8HMT7EJBb10LD+Y8TI73ozlstvLwaCyG/9kxkv7eDPmYiOy3sWQBeLVeTNT3Lg93gzmCmNgNSj5gyEC172bqU53vJkOk0VSQMg6FovX2PtglpbPw83QxoCQGZENGkX/ySyovcPN/KnTP1BynDjWZgEXZnFy7w82w14PISsKaNggCV7N+lgBszw/2mxw0SxhCV9Ym4UsdsAM6g81k0FT7q3xbmamaBYFJZgdHTNmgUot1xqfzZgZx48TzJiDeQBe1SAI0g9mLDslZjAaa4YTrMXYZmzOZiw7JWYir4c2Loh8JheI3JcrRxwBuBZh+hlmLK+ZCWtsXLC2UIpMXG2zZjrLWHGG2UQWNk0/rvSL2y3b1sIQUecVbnYfQVdfFKbLKzw5DFW7k1YUpnJclr24pSf6mbFa9BcPRdYGnjyhLgM5yeRcOG4Z4DapqXuPfHh/yn+gCJZH1cWrWa8ttd2rGXfMFg5TDBIOJY/dvDx/7iGmrx4N2XNr9uTb2hczsSzGSTER5y2YsGPRXaMqqnYQi8aWdFK4sXHfmg2yUklHncdoVtYCPPfE5YAIFballv3pWf8OmTNr3TczT+X6tp+ZuDvQwsz3B5nKPGmGrVWkMkhwQpU3svYTK4wpFCACQmsz3GGl9up/qKVIjmc6bE6GM2BpyNrdCPnrDddmECdjnsgwatUSs3FZJ9/xf9ixLXEb4N6/mbmyuUYK2aHArMuKomiMcbya4yDasS1ltzVksUU2Zi+Pg8MGzQxN03AAyH283EbHrzf/X2jYe4HOUAVlay1mJjxvlZUM7JLrWUMZveO923IdM9lZ1Mh6iVm/XLzEbMQZ0wLmr2CvnMQWn/CbmTLNrgi2mfw0q85hOChzFZpFu5rJEQ/3zB3tzawepzCkgsnNbcexWcgA/s4MP3nhAXYR680MU4DSY7nAWTeZ57OYrz7H+oGZ/OSFO8mg9/XKLKqqyh6nMLcOdSvBrbHIXpPZYCxT9E/MsMUWjMpSliPWbtK37JFTDsA/NH9o1gbrR7v2xowNGzUM0WSWwZn4h2Ywk82P1jrmuWszZgfzsSrXg3PejJfx8SMzpnc4Dpw4FyPhnjoTGtb2sebCti8fWy7QHLWHAlypytyea462bwqYqPws88c1hb0w1toiOt08j0ZzRSVKMlDtXDqWu+h66kl7pz9zE13LKf5+3fHAdxmlf7bFR7TfjLwdcPZdSO9IelmzYO8F627ES+6+GN20W7ocz82i+0oM8suzC3LjfN+N0W743D1b4Qv+8nOAi2Gq6tkKX6ic9GyFL7RB8PeLzqG+aHIS6ak72+Abj4smJ2HWn23wjZ2+evgB/UG/pPr3FNfcnzD4DPdsA4IgCIIgCIIgCIIgCIIgCGIf/gHn00Ij/NXx1AAAAABJRU5ErkJggg==" width =200>
+    <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEMcIRv59UHhPajc_aPEm0s3-1QTA2QP3v7V2IpyV7B9HKw39WOQ">
+    <p style = color:violet;font-family:fantasy;font-size:20> ~~~ These are two games that my friends and I mostly play ~~~</p>
+    <img src = "https://media1.giphy.com/media/4cLZbVhGpwWkM/200.webp#7-grid1">
+    <img src = "https://media3.giphy.com/media/IKe9erigqK7fi/200w.webp#21-grid1">
+    <p style = color:teal;font-family:fantasy;font-size:20> ~~~ These are two of my favorite anime I watched ~~~</p>
+    </body>
+</html>
