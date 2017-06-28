@@ -1,0 +1,97 @@
+<html>
+<head>
+      <style>
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+    <title>School</title>
+    <link rel="stylesheet" type="text/css" href= "school.css">
+    </head>
+    <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a style =font-family:cursive href="test.html">About Me</a>
+  <a style = font-family:cursive href="school.html">School</a>
+  <a style = font-family:cursive href="future.html">Future</a>
+  <a style = font-family:cursive href="Others.html">Others</a>
+        <a style = font-family:cursive href= "Untitled-4.html">Hobbies</a>
+        <a style = font-family:cursive href= "bio.html">Bio</a>
+</div>
+
+<h2></h2>
+<p></p>
+<span style="font-size:30px;cursor:pointer;color:white;" onclick="openNav()">&#9776;</span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+    <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">About</a>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()"></span>
+
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+<div id="main">
+  ...
+</div> 
+    <body background = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd39mhdSKFdz2r7Le9ZfWK_LR_MIRWfiKJ_PZqOerblflbl9fm" ></body>
+    <p style =color:brown;font-family:monospace;font-size:36> School</p>
+    
+    <p style =font-family:monospace;font-size:20;color:green>At school I have tooken many classes. Out of all the classes I have tooken throughout the years, math was actually my favorite. Math was my favorite class because it was easy for me and I always finish early so I end up helping my other classmates which I really liked to do. I never actually hated any classes but there is one class I disliked, Social Studies. The reason why I hated that class was we had to carry a five subject notebook AND a textbook to class everyday. Even though the school gave out Ipads to every student and teacher, we still had to carry alot of supplies to class. I also lose alot of focus during class because history doesn't really intrest me which result my grades and expectationns go down in Social Studies. All the other classes I have elsewise is close to being the same.</p>
+    <img src = "https://media4.giphy.com/media/xZfw4VIQyoQV2/200.webp#2-grid1" width:180; length:260>
+    <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw3Q_4GG0wFkJ5po2H7Yn3rrSY3ryVOBu7WPi7mGbhZ_P0JGtsoQ">
+    <p style = color:violet;font-family:monospace;font-size:20>~~~ How I am in Math vs Social Studies ~~~</p>
+
+
+</html>

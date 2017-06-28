@@ -1,0 +1,96 @@
+<html>
+<head>
+      <style>
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+    <title> Future</title>
+    
+    </head>
+    <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a style =font-family:cursive href="test.html">About Me</a>
+  <a style = font-family:cursive href="school.html">School</a>
+  <a style = font-family:cursive href="future.html">Future</a>
+  <a style = font-family:cursive href="Others.html">Others</a>
+        <a style = font-family:cursive href= "Untitled-4.html">Hobbies</a>
+        <a style = font-family:cursive href= "bio.html">Bio</a>
+</div>
+
+<h2></h2>
+<p></p>
+<span style="font-size:30px;cursor:pointer;color:white;" onclick="openNav()">&#9776;</span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+    <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">About</a>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()"></span>
+
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+<div id="main">
+  ...
+</div> 
+    <body background = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvrRo3h58PIW0w8nf6NBcp9DrJsGBkLuNU9G1M3ienMsXLSaGahA">
+
+    <p style = color:white;font-size:36;font-family:cursive> Future (What I am going to do ten years from now...)</p>
+        <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxYGIBIf2GFnlG-J470E_keRLaUGN_jz5Kcw5XFQdYQiU5G_eZ">
+        <p style = color:white;font-size:20;font-family:cursive> Ten years from now, I would like to be still in school learning about the future. I would learn about design and descover new type of techology that will help the world.I would continue studing until I am finally satisfied with the results of the outcome from the time I will be studing.Also when I get out of high school,I'm hoping I can get into a good university to study in.</p>
+        <img src = "https://media1.giphy.com/media/1BguPjlFLzWj6/200.webp#1-grid1">
+        <img src = "https://media0.giphy.com/media/jBzO4OBN8oIms/200.webp#10-grid3">
+    </body>
+</html>
